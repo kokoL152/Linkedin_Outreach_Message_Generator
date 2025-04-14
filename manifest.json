@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn AI Outreach Generator",
+  "version": "1.0",
+  "description": "Generate AI-powered outreach messages for LinkedIn profiles",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://*.linkedin.com/*"
+  ],
+  "action": {
+    "default_popup": "src/popup.html"
+  }
+}
+
